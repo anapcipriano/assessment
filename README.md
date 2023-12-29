@@ -5,7 +5,7 @@ Reference article: Arce, A. N., David, T. I., Randall, E. L., Ramos Rodrigues, A
 Pesticide exposure is associated with insect pollinator declines, and it may have an impact on bees' behaviour, health, and colony development. Arce et al. (2017) exposed 20 bumblebee colonies to neonicotinoid clothianidin for 5 weeks, establishing a realistic field setting. I wanted to explore the articles' dataset containing the bee groups, such as eggs, pupae, larval, queen, worker, male, and gyne, developing a Python project to implement some statistical analysis and explore the impact of the treatment on these groups. This project can be applied to projects with a behavioral ecology scope.
 
 # Step 1
-First of all, it is necessary to use the libraries and modules that are needed in this code:
+First of all, it is necessary to use the following libraries and modules in this code:
 
 - pandas (import pandas as pd): data manipulation and analysis
 - seaborn (import seaborn as sns): statistical data visualization
@@ -65,7 +65,7 @@ Exploring the data set:
  
 
 # Conclusion
-This code can be used to explore data sets from ecological and behavioural projects, implementing statistical analysis to investigate, in this case, the relationship of the control or pesticide groups on the bumblebee colonies condition, but it can be adapted to projects with similar scopes.
+This code can be used to explore data sets from ecological and behavioural projects. It implements statistical analysis to investigate the relationship of the control or pesticide groups on the condition of bumblebee colonies, but it can be adapted to projects with similar scopes.
 
  - **This project is open source, feel free to view, use, and contribute to it!!**
 
