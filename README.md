@@ -33,23 +33,41 @@ Finally, perform linear regressions to explore the relationship between the fina
 
 # Examples
 Exploring the data set:
-- Histogram 
+- Histogram
+  
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/510bf837-1590-4684-a665-2ddc9d754998)
-- Boxplot 
+- Boxplot
+  
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/62b42251-daa2-4636-beb7-8e6057c401df)
 - Descriptive statistics for the control subgroup
+  
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/fc1b83e4-4241-41e9-919c-1f450ce93697)
-Correlation analysis for the pesticide subgroup
+- Correlation analysis for the pesticide subgroup
+  
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/849bb13a-9c22-40e0-8fc7-dd3e41ba53c0)
-Correlation heatmap plotting for the pesticide subgroup
+- Correlation heatmap plotting for the pesticide subgroup
+  
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/870910e3-b9f8-44cc-bd4b-82a9fcb6d51b)
 
+- Mann-Whitney U test
+
+![image](https://github.com/anapcipriano/assessment/assets/153204519/9cf037de-e1db-4b8c-944c-0933534e885d)
+
+- GLM
+
+  ![image](https://github.com/anapcipriano/assessment/assets/153204519/2a36f4d6-b6c9-4e25-b813-3cfb4c0258f6)
+
+- Regression analysis
+
+ ![image](https://github.com/anapcipriano/assessment/assets/153204519/62486818-ee1b-4227-83c5-36e29ac1649f)
+ 
 
 
 
 # Conclusion
-This code can be used to explore data sets from ecological and behavioural projects, implementing statistical analysis to investigate, in this case, the relationship of the control or pesticide groups on the bumblebee colonies census, but it can be adapted to projects with similar scopes.
+This code can be used to explore data sets from ecological and behavioural projects, implementing statistical analysis to investigate, in this case, the relationship of the control or pesticide groups on the bumblebee colonies condition, but it can be adapted to projects with similar scopes.
 
+ - **This project is open source, feel free to view, use, and contribute to it!!**
 
 
 
