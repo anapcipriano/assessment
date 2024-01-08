@@ -18,7 +18,7 @@ First of all, it is necessary to use the following libraries and modules in this
 - sklearn.linear_model (from sklearn.linear_model import LinearRegression): linear regression modeling
 - datetime (from datetime import datetime): date and time manipulation, introducing randomness
 
-Next, importing the data that is available in this directory: Arce.et.al_census.
+Next, import the data that is available in this directory: Arce.et.al_census.
 - The data frame is named as bees_complete: bees_complete = pd.read_csv("Arce.et.al_census.csv"). The data has several columns and we will select the ones that are interesting to our project by dropping the others.
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/826b8dda-b078-4697-94b6-d3d3b9a30cb5)
 
