@@ -2,7 +2,7 @@
 Reference article: Arce, A. N., David, T. I., Randall, E. L., Ramos Rodrigues, A., Colgan, T. J., Wurm, Y., & Gill, R. J. (2017). Impact of controlled neonicotinoid exposure on bumblebees in a realistic field setting. Journal of Applied Ecology, 54(4), 1199-1208.
 
 # Background
-Pesticide exposure is associated with insect pollinator declines, and it may have an impact on bees' behaviour, health, and colony development. Arce et al. (2017) exposed 20 bumblebee colonies to neonicotinoid clothianidin for 5 weeks, establishing a realistic field setting. I wanted to explore the articles' dataset containing the bee groups, such as eggs, pupae, larval, queen, worker, male, and gyne, developing a Python project to implement some statistical analysis and explore the impact of the treatment on these groups. This project can be applied to projects with a behavioural ecology scope.
+Pesticide exposure is associated with insect pollinator declines, and it may have an impact on bees' behaviour, health, and colony development. Arce et al. (2017) exposed 20 bumblebee colonies to neonicotinoid clothianidin for 5 weeks, establishing a realistic field setting. I wanted to explore the articles' dataset containing the bee groups, such as eggs, pupae, larval, queen, worker, male, and gyne, developing a Python project to implement some statistical analysis and explore the impact of the treatment on these groups. This project can be applied to studies with a behavioural ecology scope.
 
 # Step 1
 First of all, it is necessary to use the following libraries and modules in this code:
