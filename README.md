@@ -22,14 +22,20 @@ Next, import the data that is available in this directory: Arce.et.al_census.
 - The data frame is named as bees_complete: bees_complete = pd.read_csv("Arce.et.al_census.csv"). The data has several columns and we will select the ones that are interesting to our project by dropping the others.
 ![image](https://github.com/anapcipriano/assessment/assets/153204519/826b8dda-b078-4697-94b6-d3d3b9a30cb5)
 
-# Step 2
-Now with the data frame selected, it is interesting to explore the data distribution by plotting histograms to each column, and then boxplots to visualise the data in the control and treatment groups
+Brief explanation of the variables of interest: they represent the census of the colonies. 'workers_st' and 'pupae_st' are the data about these individuals at the beginning of the experiment, before the treatment or control weeks. The variables 'eggs,' 'pupae,' 'queen,' 'workers,' 'males,' 'gyne,' 'weight_increase,' and 'sum_larval_no' were collected after the 5 weeks of treatment/control. Each variable represents a group of bees within the colonies, and 'weight_increase' is the difference in the weight of the colonies at the start and in the end of the treatment.
 
-Next, create subgroups to analyse the data in the control and pesticide-treated groups, and perform descriptive statistics and correlation analyses. Then, check the data normality to proceed to the hypothesis tests, analysing whether the bees colonies are different in the control or pesticide group.
+# Step 2
+Now with the data frame selected, it is interesting to explore the data distribution by plotting histograms to each column, and then boxplots to visualise the data in the control and treatment groups.
+
+Using this dataset, I wanted to investigate the relationship between the bumblebees that were exposed to the treatment and those that were not exposed - the control colonies. Due to this, I can perform analyses to understand the correlation within each variable in the nests, analysing how the relation of the bees within the colonies was established and whether it is different in the control or treatment groups.
+
+Next, create subgroups to analyse the data in the control and pesticide-treated groups, and perform descriptive statistics and correlation analyses. Then, check the data normality to proceed to the hypothesis tests.
 
 # Step 3
 The first analysis is the Mann-Whitney U test since some variables are non-normal. After performing the Mann-Whitney U test, implement a Generalized Linear Model (GLM), to explore the relationship between the response variables, the treatment, and the weight of the colonies at the beginning of the experiment. 
 Finally, perform linear regressions to explore the relationship between the final weight of the colonies and the bumblebee groups within each one of them.
+
+
 
 - This code can be used in the Jupiter Notebook.
 
@@ -64,8 +70,11 @@ Exploring the data set:
  ![image](https://github.com/anapcipriano/assessment/assets/153204519/62486818-ee1b-4227-83c5-36e29ac1649f)
  
 
+
 # Conclusion
-This code can be used to explore data sets from ecological and behavioural projects. It implements statistical analysis to investigate the relationship of the control or pesticide groups on the condition of bumblebee colonies, but it can be adapted to projects with similar scopes.
+Finally, the colonies' census may be impacted in colonies exposed to the pesticide treatment after 5 weeks, and this relationship can vary depending on the group. For example, gynes were affected differently compared to workers. Furthermore, other factors, such as bees' performance during foraging, might also influence the weight of the colonies, and this aspect can also be investigated for a general comprehension of the pesticide impacts on bees' health and nutrition.
+
+This code can be used to explore datasets from ecological and behavioral projects. It implements statistical analysis to investigate the relationship of the control or pesticide groups on the condition of bumblebee colonies, but it can be adapted for projects with similar scopes.
 
  - **This project is open source, feel free to view, use, and contribute to it!!**
 
