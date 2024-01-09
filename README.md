@@ -27,8 +27,6 @@ Brief explanation of the variables of interest: they represent the census of the
 # Step 2
 Now with the data frame selected, it is interesting to explore the data distribution by plotting histograms to each column, and then boxplots to visualise the data in the control and treatment groups.
 
-Using this dataset, I wanted to investigate the relationship between the bumblebees that were exposed to the treatment and those that were not exposed - the control colonies. Due to this, I can perform analyses to understand the correlation within each variable in the nests, analysing how the relation of the bees within the colonies was established and whether it is different in the control or treatment groups.
-
 Next, create subgroups to analyse the data in the control and pesticide-treated groups, and perform descriptive statistics and correlation analyses. Then, check the data normality to proceed to the hypothesis tests.
 
 # Step 3
