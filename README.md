@@ -33,7 +33,7 @@ Next, create subgroups to analyse the data in the control and pesticide-treated 
 The first analysis is the Mann-Whitney U test since some variables are non-normal. After performing the Mann-Whitney U test, implement a Generalized Linear Model (GLM), to explore the relationship between the response variables, the treatment, and the weight of the colonies at the beginning of the experiment. 
 Finally, perform linear regressions to explore the relationship between the final weight of the colonies and the bumblebee groups within each one of them.
 
-
+- In general, the Mann-Whitney U test results were not significant. However, the GLM analysis with the treatment plus the weight of the colonies indicates that the treatment may be associated with changes in the colony census for all of the bee groups, except the gynes. Lastly, the linear regression models did not have good scores; further analysis can be done with the dataset, especially incorporating foraging information to improve the understanding of the colonies' weight and bee census.
 
 - This code can be used in the Jupiter Notebook.
 
@@ -67,7 +67,6 @@ Exploring the data set:
 
  ![image](https://github.com/anapcipriano/assessment/assets/153204519/62486818-ee1b-4227-83c5-36e29ac1649f)
  
-
 
 # Conclusion
 Finally, the colonies' census may be impacted in colonies exposed to the pesticide treatment after 5 weeks, and this relationship can vary depending on the group. For example, gynes were affected differently compared to workers. Furthermore, other factors, such as bees' performance during foraging, might also influence the weight of the colonies, and this aspect can also be investigated for a general comprehension of the pesticide impacts on bees' health and nutrition.
